@@ -1,0 +1,64 @@
+.messageWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.ava{
+    display: flex;
+    align-items: flex-end; 
+}
+.ava img {
+    border-radius: 50%;
+    width: 60px;
+    vertical-align:bottom;
+    margin: 5px;
+}
+
+.time{
+    color: grey;
+    float: right;
+    margin-top: -20px;
+}
+
+.message {
+
+    background-color: black;
+    border-radius: 10px 10px 10px 0px;
+    padding: 5px;
+    margin: 0;
+    position: relative;
+}
+
+.message p {
+    margin:0;
+    padding: 5px 40px 5px 5px;
+}
+.text {
+    color: white;
+}
+
+.name {
+    color: blueviolet;
+}
+.name p {
+    margin: 0;
+    
+}
+.triangle {
+    height:50px;
+    width:50px;
+    bottom:-0px;
+    left: -45px;      
+    position:absolute;
+    overflow:hidden;
+    transform: rotate(270deg);
+    z-index: -1;
+    }
+    .triangle:before {
+    content:'';
+    display:block;
+    height:100%;
+    border-radius:0  0 0 50% ;
+    box-shadow:0 0 0 50vw black;
+    }

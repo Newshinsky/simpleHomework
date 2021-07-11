@@ -1,0 +1,15 @@
+.checkbox {
+    transform: scale(1.5);
+    opacity: 0.5;
+}
+.checkbox:checked {
+    opacity: 1;
+}
+
+
+.spanClassName {
+    color: #423189;
+    font-size: 30px;
+    margin-left: 10px;
+
+}
