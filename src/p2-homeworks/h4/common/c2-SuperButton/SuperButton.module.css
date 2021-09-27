@@ -1,4 +1,5 @@
-.default, .red {
+.default,
+.red {
     -webkit-transform: translate3D(0, 0, 0);
     -webkit-backface-visibility: hidden;
     color: #2d2d2d;
@@ -13,10 +14,10 @@
     text-decoration: none;
     display: block;
     width: 90px;
-    margin: 20px auto;
+    margin: 20px;
     text-align: center;
-    background-color:#7FFFD4;
-    border-radius:10px;
+    background-color: hsl(160, 100%, 75%);
+    border-radius: 10px;
     width: 150px;
 }
 
@@ -73,9 +74,10 @@
 
 
 .default:disabled {
-opacity: 0.5;
+    opacity: 0.5;
 
 }
+
 .red {
     background: #E32636;
 }

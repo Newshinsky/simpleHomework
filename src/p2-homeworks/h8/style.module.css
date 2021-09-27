@@ -1,0 +1,19 @@
+.defStyle {
+    margin-left: 20px;
+}
+
+.id {
+    width: 10px;
+    margin-right: 10px;
+}
+
+.name {
+    width: 100px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.age {
+    width: 15px;
+    margin-right: 10px;
+}

@@ -1,0 +1,29 @@
+.spanStyle {
+
+  text-shadow:
+    -1px -1px #FFF,
+    -2px -2px #FFF,
+    -1px 1px #FFF,
+    -2px 2px #FFF,
+    1px 1px #FFF,
+    2px 2px #FFF,
+    1px -1px #FFF,
+    2px -2px #FFF,
+    -3px -3px 2px #BBB,
+    -3px 3px 2px #BBB,
+    3px 3px 2px #BBB,
+    3px -3px 2px #BBB;
+  color: rgb(180, 70, 165);
+  transition: all 1s;
+  font-size: 25px;
+}
+
+.spanStyle,
+.inputStyle {
+  display: flex;
+  justify-content: left;
+}
+
+.spanStyle:hover {
+  color: rgb(50, 205, 97);
+}
